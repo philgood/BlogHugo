@@ -1,5 +1,5 @@
 languageCode = 'en-us'
-title = 'Self-Host Blog'
+title = '/home/blog'
 theme = 'Steak'
 
 [params]
