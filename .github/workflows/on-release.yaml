@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@0d39a63126868f5eefaa47169615edd3c0f61e20
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
         
       - name: Build
         uses: ./.github/actions/docker-image
