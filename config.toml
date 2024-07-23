@@ -1,13 +1,8 @@
-languageCode = 'en-us'
-title = '/home/blog'
-theme = 'Steak'
+theme: ["PaperMod"]
 
-[params]
-  favicon = "/favicon.svg"
-  stylesheet = "/style.css"
-  indexarticles = 50
-
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+params:
+    profileMode:
+    enabled: true
+    title: "<Title>" # optional default will be site title
+    subtitle: "This is subtitle"
+    defaultTheme: auto
